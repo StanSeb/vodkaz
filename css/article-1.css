@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.top-container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+
+.cart a {
+    font-size: 40px;
+}
+
+.cart a i {
+    margin-top: 0.35em;
+    color: black;
+    text-decoration: none;
+}
+
+.nav {
+    margin-top: 2.4em;
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 12em;
+}
+
+nav ul {
+    position: inherit;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-top: 0px;
+}
+
+nav ul li {
+    margin-right: 60px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    min-width: 400px;
+    margin-top: 1.75em;
+}
+
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+}
+
+.clear-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 10px;
+    cursor: pointer;
+    <!-- visibility: hidden; -->
+}
+
+.search {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+
+.search:hover, .search:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.bottle {
+    display: flex;
+    width: 50%;
+    margin-top: 2em;
+    padding: 1.5em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.bottle img {
+    width: 400px;
+    height: auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.bottle table {
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th {
+    padding-right: 1.5em;
+}
+
+.bottle p {
+    font-size: 18px;
+    margin-top: 8em;
+    text-align: center;
+}
+
+.price {
+    margin-top: 34em;
+    margin-right: 3em;
+    text-align: right;
+}
+
+.price p {
+    font-weight: bold;
+}
+
+.buy {
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.buy p {
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.buy:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.red-container {
+    background-color: red;
+    margin-top: 2em;
+    padding-top: 0.2em;
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    box-shadow: 20px 20px 100px inset rgb(0, 0,0,0.5);
+    justify-content: center;
+}
+
+.description {
+    margin: 2em;
+    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    line-height: 2;
+}
+
+.description p {
+    text-align: left;
+    margin-left: 3em;
+}
