@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.top-container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+
+.cart a {
+    font-size: 40px;
+}
+
+.cart a i {
+    margin-top: 0.35em;
+    color: black;
+    text-decoration: none;
+}
+
+.nav {
+    margin-top: 2.4em;
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 12em;
+}
+
+nav ul {
+    position: inherit;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-top: 0px;
+}
+
+nav ul li {
+    margin-right: 60px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    min-width: 400px;
+    margin-top: 1.75em;
+}
+
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+}
+
+.clear-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 10px;
+    cursor: pointer;
+    <!-- visibility: hidden; -->
+}
+
+.search {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+
+.search:hover, .search:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+  }
+
+section {
+    margin: 4em 2em;
+    display: flex;
+}
+
+.map {
+    border: 1px solid black;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+.information {
+    display: flexbox;
+
+}
+
+.information i {
+    font-size: 40px;
+    margin-right: 1em;
+}
+
+.information a {
+    color: black;
+}
+
+.information div {
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    font-size: 15px;
+}
+
+
+.red-container {
+    background-color: red;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    display: block;
+    text-align: center;
+    box-shadow: 20px 20px 100px inset rgb(0, 0,0,0.5);
+}
+
+.red-container h1 {
+    margin-top: 2em;
+    color: white;
+}
+
+.red-container img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+
+}
