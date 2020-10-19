@@ -99,7 +99,7 @@ section {
 
 .bottle {
     display: flex;
-    width: 50%;
+    width: 80%;
     margin-top: 2em;
     padding: 1.5em;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
@@ -133,10 +133,11 @@ table th {
     font-size: 18px;
     margin-top: 8em;
     text-align: center;
+    line-height: 1.5;
 }
 
 .price {
-    margin-top: 34em;
+    margin-top: 4em;
     margin-right: 2em;
     text-align: right;
 }
@@ -188,6 +189,7 @@ table th {
 
 .description {
     margin: 2em;
+    padding-right: 2em;
     background-color: white;
     width: 50%;
     border: 1px solid black;
